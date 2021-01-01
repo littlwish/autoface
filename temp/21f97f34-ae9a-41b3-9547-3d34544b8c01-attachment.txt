@@ -1,0 +1,2 @@
+WARNING  root:test_case.py:55 开始:正确获取所有商品优选数据
+WARNING  root:test_case.py:57 请求地址:http://admin-api.macrozheng.com/prefrenceArea/listAll

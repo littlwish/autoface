@@ -1,0 +1,31 @@
+[ {
+  "uid" : "121141418790072",
+  "name" : "正确获取所有商品优选数据",
+  "time" : {
+    "start" : 1609406800220,
+    "stop" : 1609406800323,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bdc68464eecaaf8",
+  "name" : "错误密码登录",
+  "time" : {
+    "start" : 1609406800016,
+    "stop" : 1609406800217,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "498cf7a1f94b790f",
+  "name" : "正确账号密码登录",
+  "time" : {
+    "start" : 1609406799803,
+    "stop" : 1609406800013,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

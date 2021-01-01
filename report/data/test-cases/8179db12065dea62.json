@@ -1,0 +1,145 @@
+{
+  "uid" : "8179db12065dea62",
+  "name" : "错误密码登录",
+  "fullName" : "test_case.test_case.TestCase#test_excel",
+  "historyId" : "c95b63e950ed49888278c86b381f95e8",
+  "time" : {
+    "start" : 1609404806768,
+    "stop" : 1609404807071,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "构建请求路径",
+      "time" : {
+        "start" : 1609404806769,
+        "stop" : 1609404806769,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T002', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '错误密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n        }', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro12311\"\\n        }', 'result': 'message', 'expect': '密码不正确', 'trust_result': '', 'floor': ''}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "构建请求头",
+      "time" : {
+        "start" : 1609404806769,
+        "stop" : 1609404806769,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T002', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '错误密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n        }', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro12311\"\\n        }', 'result': 'message', 'expect': '密码不正确', 'trust_result': '', 'floor': ''}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "构建请求参数",
+      "time" : {
+        "start" : 1609404806769,
+        "stop" : 1609404806769,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T002', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '错误密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n        }', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro12311\"\\n        }', 'result': 'message', 'expect': '密码不正确', 'trust_result': '', 'floor': ''}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "结果校验",
+      "time" : {
+        "start" : 1609404807071,
+        "stop" : 1609404807071,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T002', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '错误密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n        }', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro12311\"\\n        }', 'result': 'message', 'expect': '密码不正确', 'trust_result': '', 'floor': ''}"
+      }, {
+        "name" : "response_text",
+        "value" : "'{\"code\":500,\"message\":\"密码不正确\",\"data\":null}'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TBMD39IH"
+  }, {
+    "name" : "thread",
+    "value" : "2488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8179db12065dea62.json",
+  "parameterValues" : [ ]
+}

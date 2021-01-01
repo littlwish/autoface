@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 31 17:26:40 CST 2020","Thu Dec 31 17:26:40 CST 2020","103","test_case","test_case","TestCase","","","正确获取所有商品优选数据",""
+"passed","Thu Dec 31 17:26:40 CST 2020","Thu Dec 31 17:26:40 CST 2020","201","test_case","test_case","TestCase","","","错误密码登录",""
+"passed","Thu Dec 31 17:26:39 CST 2020","Thu Dec 31 17:26:40 CST 2020","210","test_case","test_case","TestCase","","","正确账号密码登录",""

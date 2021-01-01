@@ -1,0 +1,431 @@
+{
+  "uid" : "498cf7a1f94b790f",
+  "name" : "正确账号密码登录",
+  "fullName" : "test_case.test_case.TestCase#test_excel",
+  "historyId" : "5dfc6cf40fa2ecdf6a8dfab9ccb047dc",
+  "time" : {
+    "start" : 1609406799803,
+    "stop" : 1609406800013,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "构建请求路径",
+      "time" : {
+        "start" : 1609406799806,
+        "stop" : 1609406799806,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '', 'floor': ''}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "构建请求头",
+      "time" : {
+        "start" : 1609406799807,
+        "stop" : 1609406799807,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '', 'floor': ''}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "构建请求参数",
+      "time" : {
+        "start" : 1609406799807,
+        "stop" : 1609406799807,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '', 'floor': ''}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "结果校验",
+      "time" : {
+        "start" : 1609406800013,
+        "stop" : 1609406800013,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '', 'floor': ''}"
+      }, {
+        "name" : "response_text",
+        "value" : "'{\"code\":200,\"message\":\"操作成功\",\"data\":{\"tokenHead\":\"Bearer \",\"token\":\"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2MDk0MDY3OTk5NDUsImV4cCI6MTYxMDAxMTU5OX0.hnDCEeGgEpgixHIv_uzDpliepOAh5V7aNNDQwxPLXAHYOEIzjMyGUYQLd5c6a77A1c3IiZLZbx50oKFV6aZ-UA\"}}'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "686daa8e0a3b760a",
+      "name" : "log",
+      "source" : "686daa8e0a3b760a.txt",
+      "type" : "text/plain",
+      "size" : 629
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TBMD39IH"
+  }, {
+    "name" : "thread",
+    "value" : "25248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c34db6aa0d6b76bc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "time" : {
+        "start" : 1609406707084,
+        "stop" : 1609406707085,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ada8665ee7421c02",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1609406643950,
+        "stop" : 1609406643951,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d18e68e066010fd8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1609406530037,
+        "stop" : 1609406530041,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "4ca35692aa0bd28",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1609406456559,
+        "stop" : 1609406456604,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "ed1ad6ec858ef47a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609406393988,
+        "stop" : 1609406394226,
+        "duration" : 238
+      }
+    }, {
+      "uid" : "9f5b2554e6901d5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609406014051,
+        "stop" : 1609406014291,
+        "duration" : 240
+      }
+    }, {
+      "uid" : "f48afae9e0c75202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405959934,
+        "stop" : 1609405960158,
+        "duration" : 224
+      }
+    }, {
+      "uid" : "bac0661b7e0afc6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405887887,
+        "stop" : 1609405923563,
+        "duration" : 35676
+      }
+    }, {
+      "uid" : "f3e527ce5db44788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405876627,
+        "stop" : 1609405878897,
+        "duration" : 2270
+      }
+    }, {
+      "uid" : "54d2a457d4ee5f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405861277,
+        "stop" : 1609405863473,
+        "duration" : 2196
+      }
+    }, {
+      "uid" : "4752f2167b76e9ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405588363,
+        "stop" : 1609405604305,
+        "duration" : 15942
+      }
+    }, {
+      "uid" : "3a9378e78834b2a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609405501332,
+        "stop" : 1609405501561,
+        "duration" : 229
+      }
+    }, {
+      "uid" : "2b8eb952054cd919",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404942816,
+        "stop" : 1609404942841,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "26dde9e551f863a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404900483,
+        "stop" : 1609404920199,
+        "duration" : 19716
+      }
+    }, {
+      "uid" : "1b5c0b783c1ae4e9",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'",
+      "time" : {
+        "start" : 1609404806176,
+        "stop" : 1609404806563,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "98118cb6fec7c56f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404774670,
+        "stop" : 1609404779668,
+        "duration" : 4998
+      }
+    }, {
+      "uid" : "147f523b796f24d5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404736567,
+        "stop" : 1609404745429,
+        "duration" : 8862
+      }
+    }, {
+      "uid" : "3308d1ea3f85e6a1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404703897,
+        "stop" : 1609404703912,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "a3ee90c83973f5c2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404686675,
+        "stop" : 1609404686735,
+        "duration" : 60
+      }
+    }, {
+      "uid" : "b4eff952535cf0de",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404628751,
+        "stop" : 1609404652231,
+        "duration" : 23480
+      }
+    }, {
+      "uid" : "fb5856ad69404d19",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404614245,
+        "stop" : 1609404614274,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "ec414e24827b7c2f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404530242,
+        "stop" : 1609404537084,
+        "duration" : 6842
+      }
+    }, {
+      "uid" : "466d3cd951a98d49",
+      "status" : "broken",
+      "statusDetails" : "TypeError: render_body() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1609404463830,
+        "stop" : 1609404463834,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "22b162863a204891",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609404118211,
+        "stop" : 1609404118531,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "886c85dff7395e65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609402535419,
+        "stop" : 1609402535635,
+        "duration" : 216
+      }
+    }, {
+      "uid" : "240940cffb148610",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609402234902,
+        "stop" : 1609402255560,
+        "duration" : 20658
+      }
+    }, {
+      "uid" : "795d0c821cc374db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609402221994,
+        "stop" : 1609402222250,
+        "duration" : 256
+      }
+    }, {
+      "uid" : "3d510edb467b2b42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609402154745,
+        "stop" : 1609402154975,
+        "duration" : 230
+      }
+    }, {
+      "uid" : "2cc1957ce4f9a104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609402021784,
+        "stop" : 1609402022059,
+        "duration" : 275
+      }
+    }, {
+      "uid" : "8c72dc387e07450b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609401959983,
+        "stop" : 1609401960208,
+        "duration" : 225
+      }
+    }, {
+      "uid" : "84fc50286cee67fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609401929168,
+        "stop" : 1609401929381,
+        "duration" : 213
+      }
+    }, {
+      "uid" : "62cda14d0cff16ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609401485756,
+        "stop" : 1609401508566,
+        "duration" : 22810
+      }
+    }, {
+      "uid" : "23e46f2acb358847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609401457829,
+        "stop" : 1609401458059,
+        "duration" : 230
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "498cf7a1f94b790f.json",
+  "parameterValues" : [ ]
+}

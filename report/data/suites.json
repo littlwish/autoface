@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "TestCase",
+        "children" : [ {
+          "name" : "正确账号密码登录",
+          "uid" : "498cf7a1f94b790f",
+          "parentUid" : "2487a20d41845a96ebeae37a205135c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609406799803,
+            "stop" : 1609406800013,
+            "duration" : 210
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "错误密码登录",
+          "uid" : "5bdc68464eecaaf8",
+          "parentUid" : "2487a20d41845a96ebeae37a205135c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609406800016,
+            "stop" : 1609406800217,
+            "duration" : 201
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "正确获取所有商品优选数据",
+          "uid" : "121141418790072",
+          "parentUid" : "2487a20d41845a96ebeae37a205135c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609406800220,
+            "stop" : 1609406800323,
+            "duration" : 103
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2487a20d41845a96ebeae37a205135c0"
+      } ],
+      "uid" : "749abf87a14fcff92207e6dec8cc2afc"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ],
+  "name" : "suites"
+}
