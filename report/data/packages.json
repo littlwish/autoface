@@ -1,48 +1,48 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "test_case.test_case",
     "children" : [ {
       "name" : "正确账号密码登录",
-      "uid" : "498cf7a1f94b790f",
+      "uid" : "d56f3834acf5be1a",
       "parentUid" : "344aeebded4b212b56ed26a52ea56797",
       "status" : "passed",
       "time" : {
-        "start" : 1609406799803,
-        "stop" : 1609406800013,
-        "duration" : 210
+        "start" : 1609500439880,
+        "stop" : 1609500440398,
+        "duration" : 518
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ ]
+      "parameters" : [ "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '', 'floor': ''}" ]
     }, {
       "name" : "错误密码登录",
-      "uid" : "5bdc68464eecaaf8",
+      "uid" : "67cc405298b2c1e6",
       "parentUid" : "344aeebded4b212b56ed26a52ea56797",
       "status" : "passed",
       "time" : {
-        "start" : 1609406800016,
-        "stop" : 1609406800217,
-        "duration" : 201
+        "start" : 1609500440398,
+        "stop" : 1609500440586,
+        "duration" : 188
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ ]
+      "parameters" : [ "{'case_number': 'T002', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '错误密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n        }', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro12311\"\\n        }', 'result': 'message', 'expect': '密码不正确', 'trust_result': '', 'floor': ''}" ]
     }, {
       "name" : "正确获取所有商品优选数据",
-      "uid" : "121141418790072",
+      "uid" : "90aa32b76834479c",
       "parentUid" : "344aeebded4b212b56ed26a52ea56797",
       "status" : "passed",
       "time" : {
-        "start" : 1609406800220,
-        "stop" : 1609406800323,
-        "duration" : 103
+        "start" : 1609500440601,
+        "stop" : 1609500440695,
+        "duration" : 94
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ ]
+      "parameters" : [ "{'case_number': 'T003', 'case_moudle': '商品优选管理', 'case_fun': '获取所有商品优选', 'case_name': '正确获取所有商品优选数据', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/prefrenceArea/listAll', 'pattern': 'GET', 'headers': '{\\n\"Content-Type\":\"application/json\",\\n\"Authorization\": \"${token}\"\\n        }', 'param': '', 'result': 'message', 'expect': '操作成功', 'trust_result': '', 'floor': ''}" ]
     } ],
     "uid" : "test_case.test_case"
-  } ],
-  "name" : "packages"
+  } ]
 }

@@ -1,0 +1,145 @@
+{
+  "uid" : "d0bc9107f9fceadb",
+  "name" : "正确账号密码登录",
+  "fullName" : "test_case.test_case.TestCase#test_excel",
+  "historyId" : "5dfc6cf40fa2ecdf6a8dfab9ccb047dc",
+  "time" : {
+    "start" : 1609401959983,
+    "stop" : 1609401960208,
+    "duration" : 225
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "构建请求路径",
+      "time" : {
+        "start" : 1609401959985,
+        "stop" : 1609401959985,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '{\"code\":200,\"message\":\"操作成功\",\"data\":{\"tokenHead\":\"Bearer \",\"token\":\"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2MDkzNzY2MzEwMDUsImV4cCI6MTYwOTk4MTQzMX0.5vVhI9KN6D16wbr_uA0NiucCj-Rf9Kc0x174aiGF9rKr4uBCxXjUDRVQls4AQoVE153ChpfIRLNXLOAx0H-fuA\"}}', 'floor': ''}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "构建请求头",
+      "time" : {
+        "start" : 1609401959986,
+        "stop" : 1609401959986,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '{\"code\":200,\"message\":\"操作成功\",\"data\":{\"tokenHead\":\"Bearer \",\"token\":\"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2MDkzNzY2MzEwMDUsImV4cCI6MTYwOTk4MTQzMX0.5vVhI9KN6D16wbr_uA0NiucCj-Rf9Kc0x174aiGF9rKr4uBCxXjUDRVQls4AQoVE153ChpfIRLNXLOAx0H-fuA\"}}', 'floor': ''}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "构建请求参数",
+      "time" : {
+        "start" : 1609401959987,
+        "stop" : 1609401959988,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '{\"code\":200,\"message\":\"操作成功\",\"data\":{\"tokenHead\":\"Bearer \",\"token\":\"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2MDkzNzY2MzEwMDUsImV4cCI6MTYwOTk4MTQzMX0.5vVhI9KN6D16wbr_uA0NiucCj-Rf9Kc0x174aiGF9rKr4uBCxXjUDRVQls4AQoVE153ChpfIRLNXLOAx0H-fuA\"}}', 'floor': ''}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "结果校验",
+      "time" : {
+        "start" : 1609401960207,
+        "stop" : 1609401960207,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case",
+        "value" : "{'case_number': 'T001', 'case_moudle': '登录模块', 'case_fun': '用户登录', 'case_name': '正确账号密码登录', 'case_desc': '', 'case_url': 'http://admin-api.macrozheng.com', 'case_controller': '/admin/login', 'pattern': 'POST', 'headers': '{\\n\"Content-Type\":\"application/json\"\\n}', 'param': '{\\n            \"username\": \"admin\",\\n            \"password\": \"macro123\"\\n        }', 'result': 'message', 'expect': '操作成功', 'trust_result': '{\"code\":200,\"message\":\"操作成功\",\"data\":{\"tokenHead\":\"Bearer \",\"token\":\"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2MDkzNzY2MzEwMDUsImV4cCI6MTYwOTk4MTQzMX0.5vVhI9KN6D16wbr_uA0NiucCj-Rf9Kc0x174aiGF9rKr4uBCxXjUDRVQls4AQoVE153ChpfIRLNXLOAx0H-fuA\"}}', 'floor': ''}"
+      }, {
+        "name" : "response_text",
+        "value" : "'{\"code\":200,\"message\":\"操作成功\",\"data\":{\"tokenHead\":\"Bearer \",\"token\":\"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2MDk0MDE5NjAxNTgsImV4cCI6MTYxMDAwNjc2MH0.Fq0pvXcAydwhLrfGWePdrqRzkDLb02WZDQb9_A92LbXhs4lKftVwClmEHzsIQ8AFFxQ3Q6cs8xTLBz6Dg_8RsA\"}}'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TBMD39IH"
+  }, {
+    "name" : "thread",
+    "value" : "28484-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0bc9107f9fceadb.json",
+  "parameterValues" : [ ]
+}

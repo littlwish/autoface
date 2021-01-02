@@ -30,7 +30,7 @@ class TestCaseData:
         加载测试用例数据
         :return:
         """
-        url = 'E://python_work//auto_interface//V1.0.1//test_case/test_case.xlsx'
+        url = 'E://python_work//V1.0.1//test_case/test_case.xlsx'
         wb = xlrd.open_workbook(url)  # 打开excel
         sh = wb.sheet_by_name("user_login")  # 按工作簿名定位工作表
         datas = []
