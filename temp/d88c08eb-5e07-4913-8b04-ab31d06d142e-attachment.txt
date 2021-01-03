@@ -1,2 +1,0 @@
-WARNING  root:test_case.py:55 开始:正确账号密码登录
-WARNING  root:test_case.py:57 请求地址:http://admin-api.macrozheng.com/admin/login

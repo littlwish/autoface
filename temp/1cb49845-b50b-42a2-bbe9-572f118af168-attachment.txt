@@ -1,5 +1,0 @@
-WARNING  root:test_case.py:55 开始:正确账号密码登录
-WARNING  root:test_case.py:57 请求地址:http://admin-api.macrozheng.com/admin/login
-WARNING  root:test_case.py:59 请求头参数:{'Content-Type': 'application/json'}
-WARNING  root:test_case.py:61 请求体参数:{'username': 'admin', 'password': 'macro123'}
-WARNING  root:test_case.py:68 请求结果:{"code":200,"message":"操作成功","data":{"tokenHead":"Bearer ","token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2MDk0MDY3OTk5NDUsImV4cCI6MTYxMDAxMTU5OX0.hnDCEeGgEpgixHIv_uzDpliepOAh5V7aNNDQwxPLXAHYOEIzjMyGUYQLd5c6a77A1c3IiZLZbx50oKFV6aZ-UA"}}

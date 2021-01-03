@@ -1,5 +1,0 @@
-WARNING  root:test_case.py:55 开始:正确获取所有商品优选数据
-WARNING  root:test_case.py:57 请求地址:http://admin-api.macrozheng.com/prefrenceArea/listAll
-WARNING  root:test_case.py:59 请求头参数:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2MDk1MDA0NDEzODUsImV4cCI6MTYxMDEwNTI0MX0.2ybmvVUe1bH59KJjNfmLk61_WAuEKjEFUbpd5zMTSZrZwMtHt2FwF9vjB2h35BhaBESnQPt4wXRot-n-KQKaew'}
-WARNING  root:test_case.py:61 请求体参数:{}
-WARNING  root:test_case.py:72 请求结果:{"code":200,"message":"操作成功","data":[{"id":1,"name":"让音质更出众","subTitle":"音质不打折 完美现场感","sort":null,"showStatus":1,"pic":null},{"id":2,"name":"让音质更出众22","subTitle":"让音质更出众22","sort":null,"showStatus":null,"pic":null},{"id":3,"name":"让音质更出众33","subTitle":null,"sort":null,"showStatus":null,"pic":null},{"id":4,"name":"让音质更出众44","subTitle":null,"sort":null,"showStatus":null,"pic":null}]}
