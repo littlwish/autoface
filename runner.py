@@ -9,4 +9,4 @@ import pytest
 import os
 
 pytest.main(["test_case/test_case.py", '--alluredir', './temp', '-s'])
-os.system('allure generate ./temp -o ./allure-report --clean')
+#os.system('allure generate ./temp -o ./allure-report --clean')
